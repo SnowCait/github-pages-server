@@ -1,0 +1,23 @@
+{
+  "name": "github-pages-server",
+  "version": "1.0.0",
+  "description": "Show GitHub Pages in localhost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowCait/github-pages-server.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Pages"
+  ],
+  "author": "SnowCait",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SnowCait/github-pages-server/issues"
+  },
+  "homepage": "https://github.com/SnowCait/github-pages-server#readme"
+}
