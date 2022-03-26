@@ -2,17 +2,22 @@
   "name": "github-pages-server",
   "version": "1.0.0",
   "description": "Show GitHub Pages in localhost",
-  "main": "index.js",
+  "main": "./bin/github-pages",
   "scripts": {
+    "start": "node ./bin/github-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "github-pages-server": "./bin/github-pages-server",
+    "ghps": "./bin/github-pages-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SnowCait/github-pages-server.git"
   },
   "keywords": [
-    "GitHub",
-    "Pages"
+    "GitHub Pages",
+    "server"
   ],
   "author": "SnowCait",
   "license": "MIT",
